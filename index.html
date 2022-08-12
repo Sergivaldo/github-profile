@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github - Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="main-content">
+                <div class="main-content__header">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GITHUB PROFILE</span>
+                </div>
+                <div class="main-content__search">
+                    <form id="search_form">
+                        <div>
+                            <input autocomplete="off" type="search" id="search" placeholder="Search profile" required>
+                            <button type="submit" >
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            
+                        </div>
+                    </form>
+                    
+                </div>
+                <div id="profile-container"></div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
